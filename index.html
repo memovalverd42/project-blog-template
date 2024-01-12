@@ -7,7 +7,7 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <link rel="icon" href="assets/images/favicon.ico" />
-    <title>Blog Chido</title>
+    <title>DevPulse Lab</title>
     <!-- <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
@@ -30,80 +30,88 @@
       rel="stylesheet"
     />
     <link href="assets/css/theme.css" rel="stylesheet" />
+    <style>
+      /* Cambiar el fondo a color oscuro */
+
+      /* Cambiar el color del texto a blanco */
+      .navbar-dark .navbar-nav .nav-link {
+          color: #ffffff;
+      }
+
+      /* Cambiar el color del texto de la marca a blanco */
+      .navbar-dark .navbar-brand {
+          color: #ffffff;
+      }
+
+      /* Cambiar el color del texto del botón de la barra de navegación móvil a blanco */
+      .navbar-dark .navbar-toggler-icon {
+          background-color: #ffffff;
+      }
+  </style>
   </head>
   <body class="layout-default">
 
-    <!-- Begin Menu Navigation
-================================================== -->
-    <header class="navbar navbar-expand-md navbar-light bg-white fixed-top mediumnavigation">
+    <!-- Begin Menu Navigation -->
+    <header class="navbar navbar-expand-md navbar-dark fixed-top mediumnavigation">
       <div class="container">
         <!-- Begin Logo -->
         <a class="navbar-brand" href="index.html">
-          <img src="assets/images/logo2.png" alt="Affiliates - Free Bootstrap Template" />
-          Blog Chido
+          <img src="assets/images/logo2.png" alt="logo" />
+          DevPulse Lab
         </a>
         <!-- End Logo -->
-        <!-- Begin Menu -->
+        <!-- Begin Navbar Toggle Button (Mobil) -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsWow" aria-controls="navbarsWow" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <!-- End Navbar Toggle Button (Mobil) -->
+        <!-- Begin Menu -->
         <div class="collapse navbar-collapse" id="navbarsWow">
-          <!-- Begin Menu -->
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link" href="index.html">Home</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="single-sidebar-right.html">Posts</a>
+            </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="dropdown01" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Post</a>
+              <a class="nav-link dropdown-toggle" href="#" id="dropdown01" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Categorias</a>
               <div class="dropdown-menu" aria-labelledby="dropdown01">
-                <a class="dropdown-item" href="single.html">Left Sidebar</a>
-                <a class="dropdown-item" href="single-sidebar-right.html">Right Sidebar</a>
+                <a class="dropdown-item" href="single-sidebar-right.html">FastAPI</a>
+                <a class="dropdown-item" href="single-sidebar-right.html">Django</a>
+                <a class="dropdown-item" href="single-sidebar-right.html">Arduino</a>
+                <a class="dropdown-item" href="single-sidebar-right.html">Micropython</a>
               </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="category.html">Category</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a target="_blank" class="nav-link highlight" href="https://gum.co/affiliates-html-template">Download</a>
             </li>
           </ul>
           <!-- End Menu -->
         </div>
       </div>
     </header>
-    <!-- End Menu Navigation
-================================================== -->
-
+    <!-- End Menu Navigation -->
 
     <div class="site-content">
-      <!-- Home Jumbotron
-    ================================================== -->
+
+      <!-- Begin Site Welcome -->
       <section class="intro">
         <div class="wrapintro">
-          <h1>EL Blog Mas Chido</h1>
-          <h2 class="lead">
+          <h1>DevPulse Lab</h1>
+          <h2 class="lead text-white">
             Un Blog donde hablamos de programación y tecnologia en general
           </h2>
         </div>
       </section>
-      <!-- Container
-    ================================================== -->
+      <!-- Begin Site Welcome -->
+
       <div class="container">
         <div class="main-content">
-          <!-- Featured
-            ================================================== -->
+          <!-- Begin Recent Posts -->
           <section class="featured-posts">
             <div class="section-title">
               <h2><span>Recientes</span></h2>
             </div>
             <div class="row listfeaturedtag">
-              <!-- begin post -->
+              <!-- Begin Post -->
               <div class="col-sm-6">
                 <div class="card">
                   <div class="row">
@@ -152,7 +160,7 @@
                   </div>
                 </div>
               </div>
-              <!-- end post -->
+              <!-- End post -->
               <!-- begin post -->
               <div class="col-sm-6">
                 <div class="card">
@@ -206,8 +214,7 @@
               <!-- end post -->
             </div>
           </section>
-          <!-- Posts Index
-        ================================================== -->
+          <!-- Posts Index -->
           <section class="recent-posts row">
             <div class="col-sm-4">
               <div class="sidebar">
