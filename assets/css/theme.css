@@ -834,6 +834,8 @@ blockquote {
     margin-bottom: 30px;
     box-shadow: 0 0px 1px 0 rgba(0, 0, 0, 0.14);
     border: 0;
+    border-radius: 20px;
+    background-color: var(--second-bg-color);
 }
 
 .card .img-thumb {
@@ -1331,37 +1333,23 @@ iframe {
 
 /* Begin Comments Section */
 
-.date {
-    font-size: 11px
+.card-body {
+    /* background-color: var(--second-bg-color); */
 }
 
 .comment-text {
-    font-size: 12px
+    color: white;
 }
 
-.fs-12 {
-    font-size: 12px
+.card-footer {
+    /* background-color: var(--second-bg-color); */
 }
 
-.shadow-none {
-    box-shadow: none
+.form-label {
+    color: white;
 }
 
-.name {
-    color: #007bff
-}
 
-.cursor:hover {
-    color: blue
-}
-
-.cursor {
-    cursor: pointer
-}
-
-.textarea {
-    resize: none
-}
 
 
 /* End Comments Section */
